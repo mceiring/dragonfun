@@ -14,7 +14,205 @@
       {
         "title": "how much is a dia-gram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 240,
+                "y": 216
+              },
+              "angle": 0,
+              "id": "cef2b0aa-9ec3-4ae9-82bf-b8659115151c",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "KEYBOOMARA\nNG"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 482,
+                "y": 37
+              },
+              "angle": 0,
+              "id": "79868821-50b9-401a-b758-33cf788091df",
+              "z": 2,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "title": "this is meybi hakker",
+                  "type": "Spoofing",
+                  "description": "meibi hackerman comes and take the server?",
+                  "mitigation": "good framewordk, sanitize data, encrypt"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "User"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "79868821-50b9-401a-b758-33cf788091df"
+              },
+              "target": {
+                "id": "cef2b0aa-9ec3-4ae9-82bf-b8659115151c"
+              },
+              "vertices": [
+                {
+                  "x": 395,
+                  "y": 161
+                }
+              ],
+              "id": "80bfa793-fb61-427e-b8dd-ac1c0ef46a33",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6000954018980943,
+                    "offset": 2.788700335027668
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 2",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 624,
+                "y": 240
+              },
+              "target": {
+                "x": 266,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 380,
+                  "y": 206
+                },
+                {
+                  "x": 271,
+                  "y": 102
+                }
+              ],
+              "id": "a32ba903-3797-4166-a29c-06eb36cc3a90",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 480,
+                "y": 303
+              },
+              "angle": 0,
+              "id": "d96c43bd-523f-480a-a4c8-dd75b09a27df",
+              "z": 5,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "SERVER"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "cef2b0aa-9ec3-4ae9-82bf-b8659115151c"
+              },
+              "target": {
+                "id": "d96c43bd-523f-480a-a4c8-dd75b09a27df"
+              },
+              "vertices": [],
+              "id": "6221805e-1620-4af0-9fb2-be4cda8cf6a3",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 5",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 1428.3642578125,
+          "width": 1439.5419921875
+        }
       }
     ],
     "reviewer": "ANDERS MÅKE"
