@@ -261,9 +261,10 @@
                 {
                   "status": "Open",
                   "severity": "Medium",
-                  "title": "SQP",
+                  "title": "SQL",
                   "type": "Information disclosure",
-                  "description": "Ikke sikker mot sql inc"
+                  "description": "Ikke sikker mot sql inc",
+                  "mitigation": "nothing"
                 }
               ],
               "attrs": {
