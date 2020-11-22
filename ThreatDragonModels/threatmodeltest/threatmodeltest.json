@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "title": "threatmodeltest",
+    "owner": "ERLEND DRAGEN",
+    "description": "idno man"
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "fisken lars"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "how much is a dia-gram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "ANDERS MÅKE"
+  }
+}
